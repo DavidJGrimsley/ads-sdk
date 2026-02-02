@@ -1,6 +1,6 @@
 {
   "name": "@mr.dj2u/ads",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Offline-first ads service and components for David J Grimsley's portfolio services",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,12 @@
     "prepublishOnly": "npm run build",
     "watch": "tsc --watch"
   },
-  "keywords": ["ads", "react-native", "offline-first", "expo"],
+  "keywords": [
+    "ads",
+    "react-native",
+    "offline-first",
+    "expo"
+  ],
   "author": "David J Grimsley",
   "license": "MIT",
   "peerDependencies": {
