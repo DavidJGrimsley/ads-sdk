@@ -2,8 +2,8 @@
 
 Offline-first ads service and components for React Native/Expo apps. Display tasteful, non-intrusive ads for your services with built-in caching, analytics tracking, and customizable styling.
 
-**Needs External API** You will need to set up an API like I have in my portfolio repo: [DavidsPortfolio](../../DavidsPortfolio)
-  
+**Needs External API** You will need to set up an API like I have in my portfolio repo: [![DavidsPortfolio](https://img.shields.io/badge/DavidsPortfolio-repo-blue)](https://github.com/DavidJGrimsley/DavidsPortfolio)
+
 **Out-of-the-box ready:** Works immediately with my portfolio services as a default so you can see it working right away but you will want to see the section below for initializing to your data.
 
 ## Features
