@@ -84,7 +84,16 @@ export default function AdBanner({ ad, className = '', onPress, onInfoPress, onD
           className="rounded-xl overflow-hidden shadow-app-medium"
         >
           {/* Action icons - Info and Dismiss */}
-          <View className="absolute top-2.5 right-2.5 flex-row items-center z-10">
+          <View
+            style={{
+              position: 'absolute',
+              top: 10,
+              right: 10,
+              flexDirection: 'row',
+              alignItems: 'center',
+              zIndex: 10,
+            }}
+          >
             <TouchableOpacity
               onPress={handleInfoPress}
               className="bg-white/20 rounded-full p-2"
